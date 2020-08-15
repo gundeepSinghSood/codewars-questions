@@ -10,14 +10,16 @@
 "Chicago"  -->  "c:**,h:*,i:*,a:*,g:*,o:*"
 ```
 
-⋅⋅⋅As you can see, the letter c is shown only once, but wih 2 asterisks.
+⋅⋅⋅As you can see, the letter c is shown only once, but wih 2 asterisks.⋅⋅
 
-⋅⋅⋅The return string should include only the letters (not the dashes, spaces, apostrophes, etc). There should be no spaces in the output, and the ⋅⋅⋅different letters are separated by a comma (,) as seen in the example above.
+⋅⋅⋅The return string should include only the letters (not the dashes, spaces, apostrophes, etc). There should be no spaces in the output, and the⋅⋅ ⋅⋅⋅different letters are separated by a comma (,) as seen in the example above.⋅⋅
 
-⋅⋅⋅Note that the return string must list the letters in order of their first appearence in the original string.
+⋅⋅⋅Note that the return string must list the letters in order of their first appearence in the original string.⋅⋅
 
 ##### More examples:
 
-⋅⋅* getStrings("Chicago"), "c:**,h:*,i:*,a:*,g:*,o:*"
-⋅⋅* getStrings("Bangkok"), "b:*,a:*,n:*,g:*,k:**,o:*"
-⋅⋅* getStrings("Las Vegas"), "l:*,a:**,s:**,v:*,e:*,g:*"
+```javascript
+getStrings("Chicago"), "c:**,h:*,i:*,a:*,g:*,o:*"
+getStrings("Bangkok"), "b:*,a:*,n:*,g:*,k:**,o:*"
+getStrings("Las Vegas"), "l:*,a:**,s:**,v:*,e:*,g:*"
+```

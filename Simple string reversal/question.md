@@ -17,7 +17,9 @@ solve("codewars") = "srawedoc"
 
 ##### More examples:
 
-⋅⋅* solve("codewars"),"srawedoc"
-⋅⋅* solve("your code"),"edoc ruoy"
-⋅⋅* solve("your code rocks"),"skco redo cruoy"
-⋅⋅* solve("i love codewars"),"s rawe docevoli"
+```javascript
+solve("codewars"),"srawedoc"
+solve("your code"),"edoc ruoy"
+solve("your code rocks"),"skco redo cruoy"
+solve("i love codewars"),"s rawe docevoli"
+```
